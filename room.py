@@ -4,7 +4,7 @@ from staff import Staff
 class Room:
     s="staff"
     f="fellow"
-    input = raw_input("Hi, please identify yourself by either: o for staff or s for fellow ::")
+    input = raw_input("Hi, please identify yourself by either:  staff or fellow ::")
 
 
     if input == s:

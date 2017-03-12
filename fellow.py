@@ -6,7 +6,7 @@ class Fellow:
     def fellower():
          o="office"
          l="living"
-         option = raw_input("How do you intend to use the room::")
+         option = raw_input("How do you intend to use the room ether office or living::")
 
          if option == o:
              Office.office_space() #calls the office function
